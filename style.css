@@ -9,9 +9,11 @@ h1 {
     opacity: 1;
 }
 
-#one {
-    
+body {
+    overflow-x: hidden;
+    width: 100%;
 }
+
 
 a, a:hover {
     color: #875DA1;
@@ -39,6 +41,16 @@ a, a:hover {
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    #two{
+      background-position: center;
+    }
+
+    #four {
+        overflow-x: hidden;
+    }
+   }
 
 #one, #two {
     overflow-y: hidden;
