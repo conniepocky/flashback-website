@@ -54,8 +54,8 @@ $("h3").css({
 });
 
 var words = [
-  "A winters day", "A friend who always makes me laugh", "A song that brings back memories", "Kaleidoscope",
-  "A favorite New Year’s Eve moment", "A moment I felt proud of someone close to me", "What era do you wish you had lived in?", "A time I felt incredibly lucky"],
+  "A winters day", "A friend who always makes me laugh", "A song that brings back memories", "Riddle",
+  "A favorite New Year’s Eve moment", "My highlight of the week", "What era do you wish you had lived in?", "A time I felt incredibly lucky"],
   angle = 0;
 
 setInterval(function (){
